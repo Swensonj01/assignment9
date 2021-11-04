@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lady Bird Lake donation page</title>
+        <style>
+            @import url("style-ex09.css");
+        </style>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Old-time Computer Museum</h1>
+            <h2>Every penny helps!</h2>
+            <h2><img src="img/512px-Old_computers.jpg" alt="Alternative text to old computers jpg"></img></h2>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <ul>
+                    <li><label>Your Name: <input type="text" name="pledgename" maxlength="30"></label></li>
+                    <li class="address"><label>City: <input type="text" name="city" maxlength="30"></label></li>
+                    <li class="address"><label>State: <input id="state" type="text" name="state" maxlength="2"></label></li>
+                    <li class="address"><label>Zip Code: <input type="text" name="zip" maxlength="5"></label></li>
+                    <li><label>Phone Number: <input type="tel" name="tele" maxlength="13"></label></li>
+                    <li><label>Email: <input type="email" name="email" maxlength="30"></label></li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>How much would you like to donate?</legend>
+                <ol>
+                    <li><input type="radio" name="pledge" value="$20">$20 (Student)</li>
+                    <li><input type="radio" name="pledge" value="$45">$45 (Individual)</li>
+                    <li><input type="radio" name="pledge" value="$60">$60 (Family)</li>
+                    <li><input type="radio" name="pledge" value="$250">$250 (Patron)</li>
+                    <li><input type="radio" name="pledge" value="$750">$750 (Benefactor)</li>
+                </ol>
+                <h3>Would you like to make this donation in memory of someone? </h3r>
+                <ul>
+                    <li><input type="radio" name="honoree" value="no"/>No</li>
+                    <li><input type="radio" name="honoree" value="yes"/>Yes <label>(Enter name here): <input type="text" name="honoree" maxlength="30"></label></li>
+                </ul>
+
+            </fieldset>
+            <p><input id="submit" type="submit"></p>
+            <a href="index.html"><h4>Back to my homepage</h4></a>
+        </div>
+    </body>
+</html>

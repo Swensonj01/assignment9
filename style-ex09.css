@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(to bottom, #4363e2 0%, #050d30 100%);
+}
+
+h1 {
+    font-family: 'Times', monospace;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Times', monospace;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+#state {
+    max-width: 3em;
+}
+
+input {
+    max-width: 100%;
+}
+
+fieldset {
+    font-size: 1.1em;
+    background: rgba(0, 0, 0, 0.493)
+}
+
+legend {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Times', monospace;
+    font-size: 3px;
+}
+
+#container {
+    margin: 2em 30% 0;
+    padding-bottom: 20em;
+}
+
+.address {
+    display: inline-flex;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+#submit {
+    font-size: 2em;
+    background-color:rgba(46, 50, 87, 0.513);
+    border-radius: 1px;
+}
+
+h4 {
+    border-style: outset;
+    padding: 1em 1em;
+    width: fit-content;
+    border-radius: 1px;
+    transition: .2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4:hover {
+    background-color:rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
